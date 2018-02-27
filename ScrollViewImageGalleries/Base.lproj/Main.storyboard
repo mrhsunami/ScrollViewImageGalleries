@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b66-u7-Xc3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ib9-7Q-WGm">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -31,13 +31,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1DB-Pg-7MY"/>
                     <connections>
                         <outlet property="imageGalleryScrollView" destination="Ldk-t6-AkP" id="hHo-B4-Cwl"/>
+                        <segue destination="b66-u7-Xc3" kind="show" identifier="mySegue" id="Eha-d1-P9N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="495" y="106"/>
         </scene>
         <!--Image Detail View Controller-->
         <scene sceneID="oP7-v8-sTr">
@@ -73,12 +75,30 @@
                     </view>
                     <connections>
                         <outlet property="imageDetailScrollView" destination="hHi-Ah-WnA" id="GQD-0e-jL2"/>
-                        <outlet property="imageView" destination="ZAx-Ln-3U8" id="Kij-wB-Ieq"/>
+                        <outlet property="imageView" destination="ZAx-Ln-3U8" id="skH-gL-06p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="spg-05-mDT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1125.5999999999999" y="132.26600985221674"/>
+            <point key="canvasLocation" x="1335" y="106"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="h17-JR-ygC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ib9-7Q-WGm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dDb-Rt-v8w">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6g0-zt-LKW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UZt-fp-xlM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-401" y="106"/>
         </scene>
     </scenes>
 </document>

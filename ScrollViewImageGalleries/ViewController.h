@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImageDetailViewController.h"
 
 @interface ViewController : UIViewController <UIScrollViewDelegate>
+
 
 
 @end

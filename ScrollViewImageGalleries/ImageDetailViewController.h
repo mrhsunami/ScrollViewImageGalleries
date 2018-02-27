@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
-@interface ImageDetailViewController : ViewController <UIScrollViewDelegate>
+@interface ImageDetailViewController : UIViewController <UIScrollViewDelegate>
+
+@property (weak, nonatomic) UIImage *incomingImage;
 
 @end

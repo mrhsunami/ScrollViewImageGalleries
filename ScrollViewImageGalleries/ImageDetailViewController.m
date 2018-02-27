@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *imageDetailScrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+
 @end
 
 
@@ -26,9 +27,6 @@
     self.imageDetailScrollView.minimumZoomScale = 0.1;
     self.imageDetailScrollView.maximumZoomScale = 1.0;
     
-    
-    
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,8 +34,15 @@
     
 }
 
-- (nullable UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return self.imageView;
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    self.imageView.image = self.incomingImage;
+    
 }
 
 /*
