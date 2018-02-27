@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D865671420451043003FB4DA /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D865671320451043003FB4DA /* ImageDetailViewController.m */; };
 		D8CE32472044F96D000DE7FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CE32462044F96D000DE7FC /* AppDelegate.m */; };
 		D8CE324A2044F96D000DE7FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CE32492044F96D000DE7FC /* ViewController.m */; };
 		D8CE324D2044F96D000DE7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CE324B2044F96D000DE7FC /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D865671220451043003FB4DA /* ImageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
+		D865671320451043003FB4DA /* ImageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
 		D8CE32422044F96D000DE7FC /* ScrollViewImageGalleries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewImageGalleries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CE32452044F96D000DE7FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8CE32462044F96D000DE7FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 				D8CE32462044F96D000DE7FC /* AppDelegate.m */,
 				D8CE32482044F96D000DE7FC /* ViewController.h */,
 				D8CE32492044F96D000DE7FC /* ViewController.m */,
+				D865671220451043003FB4DA /* ImageDetailViewController.h */,
+				D865671320451043003FB4DA /* ImageDetailViewController.m */,
 				D8CE324B2044F96D000DE7FC /* Main.storyboard */,
 				D8CE32512044F96D000DE7FC /* Assets.xcassets */,
 				D8CE32532044F96D000DE7FC /* LaunchScreen.storyboard */,
@@ -146,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8CE324A2044F96D000DE7FC /* ViewController.m in Sources */,
+				D865671420451043003FB4DA /* ImageDetailViewController.m in Sources */,
 				D8CE32502044F96D000DE7FC /* ScrollViewImageGalleries.xcdatamodeld in Sources */,
 				D8CE32582044F96D000DE7FC /* main.m in Sources */,
 				D8CE32472044F96D000DE7FC /* AppDelegate.m in Sources */,
